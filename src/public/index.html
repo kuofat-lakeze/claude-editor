@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>廣告聊天自動化</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div id="login" class="login hidden">
+    <form id="login-form" class="card login-card">
+      <h1>廣告聊天自動化</h1>
+      <p class="muted">請輸入後台密碼（.env 的 ADMIN_PASSWORD）</p>
+      <input type="password" id="login-password" placeholder="密碼" autocomplete="current-password" />
+      <button class="btn primary" type="submit">登入</button>
+      <p id="login-error" class="error"></p>
+    </form>
+  </div>
+
+  <div id="shell" class="hidden">
+    <header class="topbar">
+      <div class="brand">⚡ 廣告聊天自動化</div>
+      <nav id="nav">
+        <a href="#overview">總覽</a>
+        <a href="#automations">自動化</a>
+        <a href="#contacts">聯絡人</a>
+        <a href="#events">記錄</a>
+        <a href="#channels">頻道</a>
+        <a href="#simulate">模擬測試</a>
+      </nav>
+      <button id="logout" class="btn ghost small">登出</button>
+    </header>
+    <main id="view" class="container"></main>
+  </div>
+
+  <div id="toast" class="toast hidden"></div>
+  <script src="/app.js"></script>
+</body>
+</html>
