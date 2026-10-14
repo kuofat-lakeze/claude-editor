@@ -81,6 +81,12 @@ CREATE TABLE IF NOT EXISTS processed_events (
   key TEXT PRIMARY KEY,
   created_at TEXT NOT NULL DEFAULT (datetime('now'))
 );
+
+CREATE TABLE IF NOT EXISTS settings (
+  key TEXT PRIMARY KEY,
+  value TEXT NOT NULL,
+  updated_at TEXT NOT NULL DEFAULT (datetime('now'))
+);
 `;
 
 export function openDb(path: string): DB {
