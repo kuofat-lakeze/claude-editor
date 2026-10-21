@@ -308,3 +308,31 @@ API：`upp` 整合支付頁（跳轉）或幕後 API（credit / atm / cvs / line
 - Klook F-1：https://www.mostlymetrics.com/p/klook-ipo-s1-breakdown ；KKday 供應商：https://www.bokun.io/kkday-supplier
 - Vayable 關閉：https://arival.travel/article/vayable-shutters-operations/
 - 平台漏單研究：https://www.andreihagiu.com/Leakage%20Final.pdf
+
+---
+
+## 附錄 A：VietGo（viet-go.com）經營現況觀察（2026-10-21）
+
+> 無法直接開啟網站，以下來自搜尋引擎對 viet-go.com 各頁面的摘錄與 PTT／Dcard 討論。流量數據（Similarweb）無法取得。
+
+**規模**
+- 導遊列表頁顯示「找到 53 位導遊」，涵蓋河內、胡志明市、會安、峴港；峴港頁顯示 11 位。導遊頁 ID 編號已到 120 以上，推測累計註冊約 120 人、實際上架約 53 人。
+- 評價數：河內 Miya 27 則、Hiyori 10 則、胡志明 Rose 6 則，其餘多為 0–3 則，不少導遊是「0.0 分（0 則評價）」。把可見評價加總大約一兩百則，推估累計完成訂單在數百筆量級，月訂單可能只有數十筆。
+- 沒有公司名稱、統編、創辦人、募資或媒體報導；聯絡方式只有 support@viet-go.com 與頁尾 LINE 圖示；有 Threads 帳號 @vietgocom。獲客主要靠 Google 自然搜尋（PTT 2025-11 心得文作者就是「Google 隨便搜到」）。
+
+**金流：確實沒有真的串「交易金流」**
+- FAQ 明文：線上付款是「VietGo 平台諮詢費（媒合服務費）」，以新台幣計價；「VietGo 不收取實際旅遊服務費」，導遊費在服務當天直接付給導遊。
+- 關於頁另寫「30% 訂金＋現場付款」；服務條款與退款頁的取消規則互相矛盾（7 天前扣 10% vs 扣訂金全退餘款；3–6 天扣 30%；48 小時內不退）。
+- 使用哪家金流商未公開（搜尋不到藍新／綠界／Payuni／Stripe 的任何關聯）。
+- 這個設計的用意很明顯：只收自己的服務費、不碰導遊費，就同時避開了台灣「第三方支付能量登錄」（沒有代收代付）和《發展觀光條例》旅行業認定（自稱資訊媒合、不賣行程）。代價是對客人沒有金流擔保、對導遊沒有 no-show 保障，客人仍要現場付現。
+
+**定位與風險訊號**
+- 導遊列表頁標題是「越南導遊、伴遊、地陪與口譯翻譯服務列表」，首頁大量女性導遊照片。PTT 心得文作者說「差點關掉」，留言提醒小心「第三性公關」；Dcard 另有「三天兩夜快閃河內暗黑旅遊體驗」討論串連到同一來源。品牌已經帶有「伴遊」聯想，這對想做「持證、可信、家庭／商務客」定位的新進者反而是切割空間。
+- 導遊頁沒有顯示導遊證或協會會員資訊，與越南《旅遊法》第 58 條的執業條件無關聯。
+
+**對本案的啟示**
+1. VietGo 證明了「台灣人找越南中文地陪」有自然搜尋需求，而且一個人力極輕的站就能上線營運；但也證明了它的天花板：沒有金流擔保、沒有審核、沒有品牌信任，兩年左右累積只有幾十位活躍導遊與幾百筆訂單量級。
+2. 它沒做金流不是技術問題，是法規與成本考量。你要做「真擔保」就得正面處理能量登錄（或讓 Payuni 保管價金）與旅行業認定，這正是它沒跨過去的那道線，也是可能的護城河。
+3. 它的客群與品牌調性偏向男性自由行與「伴遊」。若你的目標是台灣家庭、情侶、商務客，應該從一開始就用「持證導遊＋協會會員＋實名審核」做區隔，不要和它正面競爭同一批導遊。
+
+來源：https://viet-go.com/en/about 、https://viet-go.com/en/faq 、https://viet-go.com/en/refund 、https://viet-go.com/en/terms 、https://viet-go.com/guides 、https://viet-go.com/areas/da-nang 、https://viet-go.com/guides/64-hanoi-private-tour-guide 、https://viet-go.com/contact 、https://www.ptt.cc/bbs/Vietnam/M.1763962432.A.06B.html 、https://www.dcard.tw/f/travel/p/260329808
